@@ -1,0 +1,49 @@
+include 'koneksi.php';
+		$data = mysqli_query($koneksi,"SELECT * FROM tb_penyakit WHERE bagian = 'ukuran_akar' AND masalah = '$a1'");
+		while($d = mysqli_fetch_array($data)){
+			echo "<b>Permasalahan pada ukuran akar sawi : </b><br>";
+			echo $d['penyakit'];
+			echo "<br>";
+		}
+		$data = mysqli_query($koneksi,"SELECT * FROM tb_penyakit WHERE bagian = 'warna_akar' AND masalah = '$a2'");
+		while($d = mysqli_fetch_array($data)){
+			echo "<b>Permasalahan pada warna akar sawi  : </b><br>";
+			echo $d['penyakit'];
+			echo "<br>";
+		}
+		$data = mysqli_query($koneksi,"SELECT * FROM tb_penyakit WHERE bagian = 'tekstur_akar' AND masalah = '$a3'");
+		while($d = mysqli_fetch_array($data)){
+			echo "<b>Permasalahan pada tekstur akar sawi  : </b><br>";
+			echo $d['penyakit'];
+			echo "<br>";
+		}
+		$data = mysqli_query($koneksi,"SELECT * FROM tb_penyakit WHERE bagian = 'ukuran_batang' AND masalah = '$a4'");
+		while($d = mysqli_fetch_array($data)){
+			echo "<b>Permasalahan pada ukuran batang sawi : </b><br>";
+			echo $d['penyakit'];
+			echo "<br>";
+		}
+		$data = mysqli_query($koneksi,"SELECT * FROM tb_penyakit WHERE bagian = 'warna_batang' AND masalah = '$a5'");
+		while($d = mysqli_fetch_array($data)){
+			echo "<b>Permasalahan pada warna batang sawi : </b><br>";
+			echo $d['penyakit'];
+			echo "<br>";
+		}
+		$data = mysqli_query($koneksi,"SELECT * FROM tb_penyakit WHERE bagian = 'tekstur_batang' AND masalah = '$a6'");
+		while($d = mysqli_fetch_array($data)){
+			echo "<b>Permasalahan pada tekstur batang sawi : </b><br>";
+			echo $d['penyakit'];
+			echo "<br>";
+		}
+		$data = mysqli_query($koneksi,"SELECT * FROM tb_penyakit WHERE bagian = 'ukuran_daun' AND masalah = '$a7'");
+		while($d = mysqli_fetch_array($data)){
+			echo "<b>Permasalahan pada ukuran daun sawi : </b><br>";
+			echo $d['penyakit'];
+			echo "<br>";
+		}
+		$data = mysqli_query($koneksi,"SELECT * FROM tb_penyakit WHERE bagian = 'warna_daun' AND masalah = '$a8'");
+		while($d = mysqli_fetch_array($data)){
+			echo "<b>Permasalahan pada warna daun sawi : </b><br>";
+			echo $d['penyakit'];
+			echo "<br>";
+		}

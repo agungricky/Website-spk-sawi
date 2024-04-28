@@ -1,0 +1,58 @@
+for($i=1; $i<=$jumFalse; $i++){
+		if($a1 == "terlalu_kecil"){
+		  echo "<p>Permasalahan pada akar sawi yang terlalu kecil: </p><br>
+				1. Kekurangan nutrisi <br>
+				2. Kepadatan tanah yang tinggi <br>
+				3. Serangan hama <br>"; 
+		}
+	  else if($a1 == "membengkak"){
+		  echo "<p>Permasalahan pada akar sawi yang membengkak: </p><br>
+				1. Infeksi jamur <br>
+				2. Kelebihan air <br>"; 
+		}
+	  else if($a2 == "hitam"){
+		  echo "<p>Permasalahan pada akar sawi yang berwarna hitam : </p><br>
+				1. Infeksi jamur <br>
+				2. Kelebihan air <br>"; 
+	  }
+	  else if($a3 == "lembek"){
+		  echo "<p>Permasalahan pada akar sawi yang lembek: </p><br>
+				1. Kekurangan air <br>
+				2. Akar busuk <br>
+				3. Infeksi <br>"; 
+	  }
+	  else if($a4 == "terlalu_kecil"){
+		  echo "<p>Permasalahan pada batang sawi yang terlalu kecil : </p><br>
+				1. Kekurangan nutrisi <br>
+				2. Kekurangan cahaya matahari<br>"; 
+	  }
+	  else if($a5 == "kekuningan"){
+		  echo "<p>Permasalahan pada batang sawi yang kekuningan : </p><br>
+				1. Kekurangan nutrisi <br>
+				2. Kekurangan cahaya matahari<br>
+	  }
+	  else if($a5 == "kekuningan"){
+		  echo "<p>Permasalahan pada batang sawi yang lembek : </p><br>
+				1. Kekurangan air <br> 
+				2. Kekurangan nutrisi <br> 
+				3. Infeksi jamur <br>"; 
+	  }
+	  else if($a7 == "terlalu_kecil"){
+		  echo "<p>Permasalahan pada daun sawi yang terlalu kecil : </p><br>
+				1. Kekurangan nutrisi <br>
+				2. Jarak tanaman terlalu padat <br>
+				3. Serangan hama < br>"; 
+	  }
+	  else if($a8 == "kekuningan"){
+		  echo "<p>Permasalahan pada daun sawi yang terlalu kekuningan : <br>
+				1. Kekurangan nutrisi  <br> 
+				2. Kelebihan sinar matahari <br>
+				3. Kelebihan air <br>
+				4. Ph tanah tidak seimbang <br></p>"; 
+	  }else {
+		  echo " ";
+	  }
+  }
+ 
+	  
+  
